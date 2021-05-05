@@ -12,3 +12,9 @@
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+### Reference
+1. https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html - Example of how to use sklearn classification_report
+2. https://scikit-learn.org/stable/modules/compose.html - Example of how to use a pipeline
+3. https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html - Parameters guide and example of how to implement a Grid Search
+4. https://github.com/anchorP34/Udacity-Disaster-Response-Project - This project helped me to implement the evaluate_model function in a cleaner and more efficient way
