@@ -100,8 +100,8 @@ def evaluate_model(model, X_test, Y_test, category_names):
     
     """
     y_pred = model.predict(X_test)
-    for idx, col in enumerate(category_names):
-        print (col, classification_report(Y_test.iloc[:,idx], y_pred[:,idx], target_names=category_names))
+    for index, col in enumerate(y_test.columns):
+        print (col, classification_report(y_test.iloc[:,index], y_pred[:,index], target_names=y_test.columns))
     
 
 
