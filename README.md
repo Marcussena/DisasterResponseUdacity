@@ -31,6 +31,7 @@ The project used python 3 and the following packaged were installed:
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+4. The 'visuals' folder contains the visualizations on the web app
 
 ### Code files and description
 1. ETL pipeline preparation.ipynb: Jupyter notebook containing the workflow for extract the data from csv file, merge and clean (transform) the data and export the resulting data into a Sqlite database (load) 
@@ -42,8 +43,11 @@ The project used python 3 and the following packaged were installed:
 ### Web app visualizations
 ![message_distribution](https://user-images.githubusercontent.com/55843199/117337259-8aea1200-ae73-11eb-9c32-07fe5b81c12e.png)
 ![top5_categories](https://user-images.githubusercontent.com/55843199/117337298-963d3d80-ae73-11eb-8a23-a122cb9a0f4e.png)
-![pie_chart](https://user-images.githubusercontent.com/55843199/117337315-9a695b00-ae73-11eb-9d61-b8e6cf180924.png)
+![category_frequency](https://user-images.githubusercontent.com/55843199/117347104-04d3c880-ae7f-11eb-927c-7c7a77eb5842.png)
 
+### Acknowledgements
+1. Udacity for providing the material and classes about the technical skills needed for the project and also the Knowledge section that I use frequently to answer my questions.
+2. Figure Eight for providing the datasets of real applications.
 
 ### Reference
 Follows a list of articles, web pages and github projects that I used as reference, insight and troubleshooting
