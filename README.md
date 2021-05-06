@@ -4,7 +4,7 @@
 This project is part of the Udacity Data Scientist Nanodegree. The objective is analyze two datasets about disasters provided by Figure Eight. From the datasets, a ETL workflow was implemented to merge and clean the data contained in the datasets and save them in a sqlite database. Then the data was splitted in training and test data and ML model was built using a pipeline and hyperparameter tuning with GridSearch. Lastly, a web app was created showing some visualizations about the training dataset where the user can write a message related to a disaster and the app will classify it according to 36 categories. 
 
 ### Instalations
-The project used python 3 and the following packaged were installed
+The project used python 3 and the following packaged were installed:
 
 1. NumPy
 2. Pandas
@@ -38,6 +38,9 @@ The project used python 3 and the following packaged were installed
 3. ML pipeline preparetion.ipynb: Jupyter notebook containing the analysis performed to create train_classifier.py. It uses the database created by process_data.py to train and optimize a ML model using pipeline and Grid Search. In the end, the model is exported as a pickle file.
 4. train_classifier.py: This code was created from ML pipeline preparetion.ipynb to perform the analysis, training and tuning for any database specified by the user for categorizing messages regarding 36 categories of information.
 5. run.py: Flask app to implement the ML model created as a web app and display some visualizations about the training datasets. The web app receives a message from the user as input and classify the message regarding 36 possible categories.
+
+### Web app visualizations
+
 
 ### Reference
 Follows a list of articles, web pages and github projects that I used as reference, insight and troubleshooting
