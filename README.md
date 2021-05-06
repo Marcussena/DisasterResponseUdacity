@@ -40,6 +40,9 @@ The project used python 3 and the following packaged were installed:
 5. run.py: Flask app to implement the ML model created as a web app and display some visualizations about the training datasets. The web app receives a message from the user as input and classify the message regarding 36 possible categories.
 
 ### Web app visualizations
+![message_distribution](https://user-images.githubusercontent.com/55843199/117337259-8aea1200-ae73-11eb-9c32-07fe5b81c12e.png)
+![top5_categories](https://user-images.githubusercontent.com/55843199/117337298-963d3d80-ae73-11eb-8a23-a122cb9a0f4e.png)
+![pie_chart](https://user-images.githubusercontent.com/55843199/117337315-9a695b00-ae73-11eb-9d61-b8e6cf180924.png)
 
 
 ### Reference
