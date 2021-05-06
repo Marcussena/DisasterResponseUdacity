@@ -19,7 +19,7 @@ The project used python 3 and the following packaged were installed:
 11. Pickle
 12. Sqlite3
 
-### Instructions:
+### Instructions and observations:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -31,7 +31,10 @@ The project used python 3 and the following packaged were installed:
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
-4. The 'visuals' folder contains the visualizations on the web app
+
+4. The 'visuals' folder contains the visualizations on the web app.
+
+5. The models folder contains a zipped file of the classifier.pkl file created in my environment.
 
 ### Code files and description
 1. ETL pipeline preparation.ipynb: Jupyter notebook containing the workflow for extract the data from csv file, merge and clean (transform) the data and export the resulting data into a Sqlite database (load) 
