@@ -13,6 +13,13 @@
 
 3. Go to http://0.0.0.0:3001/
 
+### Code files and description
+1. ETL pipeline preparation.ipynb: Jupyter notebook containing the workflow for extract the data from csv file, merge and clean (transform) the data and export the resulting data into a Sqlite database (load) 
+2. process_data.py: Python code created from ETL pipeline prepration.ipynb that executes a ETL pipeline from any datasets specified by the user.
+3. ML pipeline preparetion.ipynb: Jupyter notebook containing the analysis performed to create train_classifier.py. It uses the database created by process_data.py to train and optimize a ML model using pipeline and Grid Search. In the end, the model is exported as a pickle file.
+4. train_classifier.py: This code was created from ML pipeline preparetion.ipynb to perform the analysis, training and tuning for any database specified by the user for categorizing messages regarding 36 categories of information.
+5. run.py: Flask app to implement the ML model created as a web app and display some visualizations about the training datasets. The web app receives a message from the user as input and classify the message regarding 36 possible categories.
+
 ### Reference
 Follows a list of articles, web pages and github projects that I used as reference, insight and troubleshooting
 1. https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html - Example of how to use sklearn classification_report
