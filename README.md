@@ -1,7 +1,7 @@
 # Disaster Response Pipeline Project
 
 ### Motivation
-This project is part of the Udacity Data Scientist Nanodegree. The objective is analyze two datasets about disasters provided by Figure Eight. From the datasets, a ETL workflow was implemented to merge and clean the data contained in the datasets and save them in a sqlite database. Then the data was splitted in training and test data and ML model was built using a pipeline and hyperparameter tuning with GridSearch. Lastly, a web app was created showing some visualizations about the training dataset where the user can write a message related to a disaster and the app will classify it according to 36 categories. 
+This project is part of the Udacity Data Scientist Nanodegree. The objective is analyze two datasets about disasters provided by Figure Eight. From the datasets, a ETL workflow was implemented to merge and clean the data contained in the datasets and save them in a sqlite database. Then the data was splitted in training and test data and ML model was built using a pipeline and hyperparameter tuning with GridSearch. Lastly, a web app was created showing some visualizations about the training dataset where the user can write a message related to a disaster and the app will classify it according to 36 categories. The app can be really useful for people and organizations since the classification of the message helps to anticipate the aid needed by knowing what the disaster is related with (flood, shelter, security etc.).
 
 ### Instalations
 The project used python 3 and the following packaged were installed:
